@@ -6,5 +6,5 @@ prototype DDoS solution written in Python
 </div>
 </div>
 <div align="center">
-  <img src="https://c.tenor.com/-faIYyW2MxkAAAAd/zajebisty-chomik-chomik-box.gif" />
+  <img src="https://c.tenor.com/k0FifeU0s34AAAAd/zajebisty-chomik-chomikbox.gif" />
 </div>
