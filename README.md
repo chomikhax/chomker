@@ -6,5 +6,5 @@ prototype DDoS solution written in Python
 </div>
 </div>
 <div align="center">
-  <img src="https://c.tenor.com/k0FifeU0s34AAAAd/zajebisty-chomik-chomikbox.gif" />
+  <img src="https://wykopuj.pl/wp-content/uploads/2014/11/118239-90102cdb01499bf2e99cf30cc8ab8c02.jpg"/>
 </div>
